@@ -485,3 +485,8 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 2020-05-10 09:51:12.568  INFO 4480 --- [http-nio-8091-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
 2020-05-10 09:51:12.586  INFO 4480 --- [http-nio-8091-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 17 ms
 2020-05-10 12:10:13.091  WARN 4480 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m56s890ms763µs800ns).
+2020-05-10 13:00:27.018  INFO 4480 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-05-10 13:00:28.077  INFO 4480 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-10 13:00:28.111  INFO 4480 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-10 13:00:28.253  INFO 4480 --- [RMI TCP Connection(4)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-05-10 13:00:28.298  INFO 4480 --- [RMI TCP Connection(4)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
